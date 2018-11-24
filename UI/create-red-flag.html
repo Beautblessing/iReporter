@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Incident and Intervention Report">
+  <meta name="keywords" content="Red-Flag, Incident, Corruption and Intervention Reports">
+  <meta name="author" content="Blessing Jerry">
+  <title>iReporter | Welcome</title>
+  <link rel="stylesheet" href="./assets/css/red-flag.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <span class="navbar-toggle" id="js-navbar-toggle">
+      <label for="toggle">&#9776;</label>
+    </span>
+
+    <a href="#" class="logo">iReporter</a>
+    <ul class="main-nav" id="js-menu">
+      <li>
+        <a href="user-profile.html" class="nav-links">Profile</a>
+      </li>
+      <li>
+        <a href="create-red-flag.html" class="nav-links">Red-Flag</a>
+      </li>
+      <li>
+        <a href="create-intervention.html" class="nav-links">Intervention</a>
+      </li>
+      <li>
+        <a href="index.html" class="nav-links">Log out</a>
+      </li>
+
+    </ul>
+  </nav>
+
+  <div class="container">
+    <section id="main-form">
+
+      <form class="signup-form">
+        <!-- form header -->
+        <div class="form-header">
+          <h1>Create Red Flag</h1>
+        </div>
+        <!-- form body -->
+        <div class="form-body">
+
+          <div class="horizontal-group">
+            <div class="form-group">
+              <label for="titleheader" class="label-title">Please select type of corruption incident</label>
+              <div class="input-group">
+                <label>
+                  <input type="checkbox" name="abuseofpower" value="abuseofpower"> Abuse of power</label><br>
+                <label>
+                  <input type="checkbox" name="employment" value="employment"> Employment</label><br>
+                <label>
+                  <input type="checkbox" name="bribery" value="bribery"> Bribery</label><br>
+                <label>
+                  <input type="checkbox" name="tender" value="tender"> Tender</label><br>
+                <label>
+                  <input type="checkbox" name="other" value="other"> Other</label>
+              </div>
+
+              <div class="form-group">
+                <label for="firstname" class="label-title">Select entity involved in the incident</label>
+                <div class="input-group">
+                  <label>
+                    <input type="checkbox" name="abuseofpower" value="abuseofpower"> Local government</label><br>
+                  <label>
+                    <input type="checkbox" name="employment" value="employment"> State government</label><br>
+                  <label>
+                    <input type="checkbox" name="bribery" value="bribery"> Federal governmnent</label><br>
+                  <label>
+                    <input type="checkbox" name="tender" value="tender"> Private sector/organization/institution</label><br>
+                  <label>
+                    <input type="checkbox" name="tender" value="tender"> Public parastatals/institutions</label><br>
+                  <label>
+                    <input type="checkbox" name="tender" value="tender"> Clergy</label><br>
+                  <label>
+                    <input type="checkbox" name="tender" value="tender"> Individual</label><br>
+                  <label>
+                    <input type="checkbox" name="other" value="other"> Other</label>
+                </div>
+
+              </div>
+
+              <!-- <div class="horizontal-group"> -->
+              <div class="form-group">
+                <label class="label-title">Choose location where the incident occured</label><br>
+
+                <div class="form-group">
+                  <label class="label-title">Country</label>
+                  <select class="form-input" id="level">
+                    <option value="B">Nigeria</option>
+                    <!--   <option value="I">South Africa</option>
+                        <option value="A">Ghana</option> -->
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="experience" class="label-title">City</label>
+                  <input type="text" id="city" class="form-input" placeholder="Enter city" />
+                </div>
+              </div>
+
+              <!-- </div>                   -->
+
+              <!-- Bio -->
+              <div class="form-group">
+                <label for="choose-file" class="label-title">Please describe the incident(Give detail)</label>
+                <textarea class="form-input" rows="4" cols="50" style="height:auto"></textarea>
+              </div>
+
+              <div class="form-group">
+                <label for="experience" class="label-title">When did incident occur?</label>
+                <input type="text" id="lastname" class="form-input" placeholder="please enter a date/time" />
+              </div>
+            </div>
+
+
+            <div class="form-group">
+              <label for="experience" class="label-title">Name(s) of person(s) involved</label>
+              <input type="text" id="lastname" class="form-input" placeholder="enter names" />
+            </div>
+            <hr>
+            <div class="form-group">
+              <label for="supporting-file" class="label-title">Supporting Files</label>
+              <p>Images or video submissions can help us analyze your reports. Please make it into one file </p>
+            </div>
+
+            <label for="imagedesc" class="label-title"><b>Caption</b></label>
+            <input type="text" class="form-input" placeholder="Enter Caption for image" name="imagedesc"><br><br>
+            <label for="imagedesc"><b>Upload images</b></label>
+            <input type="file" class="form-input" name="pic" id="pic" accept="image/*,video/*">
+            <br><br>
+
+          </div>
+
+          <!-- form footer -->
+          <div class="form-footer">
+              <a class="btn btn-sec" href="add-geo-location.html">Add geolocation</a>
+              <a class="btn btn-sec" href="drafts.html">Save Draft</a>
+              <a class="btn btn-sec" href="#">Create</a>
+            <!-- <a href="add-geo-location.html"><button class="btn btn-sec"></button>Add geolocation</button></a>
+            <a href=""><button class="btn btn-sec">Save Draft</button></a>
+
+            <a href=""> <button class="btn btn-sec">Create</button></a> -->
+          </div>
+
+        </div>
+      </form>
+
+    </section>
+  </div>
+  <div class="footer change">
+    <p>&copy; 2018. iReporter</p>
+  </div>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
