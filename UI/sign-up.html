@@ -18,17 +18,17 @@
         <span class="navbar-toggle" id="js-navbar-toggle">
              <label for="toggle">&#9776;</label>
         </span>
-        
-        <a href="#" class="logo">iReporter</a>
+        <h1 class="logo"><span class="highlight-logo">i</span>Reporter</h1>
+        <!-- <a href="#" class="logo">iReporter</a> -->
         <ul class="main-nav" id="js-menu">
             <li>
-                <a href="#" class="nav-links">Index</a>
+                <a href="index.html" class="nav-links ind">Index</a>
             </li>
             <li>
-                <a href="#" class="nav-links">Login</a>
+                <a href="sign-in.html" class="nav-links">Signin</a>
             </li>
-            <li>
-                <a href="#" class="nav-links">Signup</a>
+            <li class="current">
+                <a href="sign-up.html" class="nav-links">Signup</a>
             </li>
             <li>
                 <a href="#" class="nav-links">Contact Us</a>
@@ -38,7 +38,7 @@
     </nav>
     <h2 class="topform">Signup</h2>
   
-    <form action="user-dashboard.html">
+    <form action="./user-dashboard.html">
         
         <div class="container">
                 <h5>Already have an account? <span class="highlight"> <a href="sign-in.html"> Sign In </a></span></h5>
@@ -57,8 +57,7 @@
             <label for="psw"><b>Confirm Password</b></label>
             <input type="password" placeholder="Confirm Password" name="psw" required>
 
-            <!-- <button class="btn btn-pri w-100" type="submit">Sign Up</button> -->
-            <button class="btn btn-pri w-100" id = "signup" onclick="redirect('user-dashboard.html')">Sign Up</button>           >Sign Up</button>
+            <button class="btn btn-pri w-100" type="submit">Sign Up</button>            <!-- <button class="btn btn-pri w-100" id = "signup" onclick="redirect('user-dashboard.html')">Sign Up</button>           >Sign Up</button> -->
         </div>
     </form>
 
