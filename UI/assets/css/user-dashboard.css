@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -293,7 +292,7 @@ ul{
 
 
 #main p{
-  text-align: justify;
+  text-align: center;
 }
 /*sidebar*/
 /*aside#sidebar{
