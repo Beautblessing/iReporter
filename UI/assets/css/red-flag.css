@@ -72,6 +72,10 @@ body {
   
 }
 
+.navbar .highlight-logo, .current a {
+  color: goldenrod;
+  font-weight: bold;
+}
 .main-nav li {
   text-align: center;
   color: #fafafa;
