@@ -20,5 +20,5 @@ The iReporter app is an e-solution to curb all forms of corruption in Africa. It
 | ```POST /red-flags``` | Create a red-flag record. |
 | ```GET /red-flags``` | Get all red-flag records. |
 | ```GET /red-flags/<red-flag-Id>``` | Get a specific red-flag record. |
-| ```PATCH /red-flags/<red-flag-id>/``` | Edit a specific ​red-flag. |
+| ```PATCH /red-flags/<red-flag-id>``` | Edit a specific ​red-flag. |
 | ```DELETE /red-flags/<red-flag-id>``` | Delete a specific red-flag record. |
