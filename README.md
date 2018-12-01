@@ -1,6 +1,6 @@
+## Project Overview
 [![Build Status](https://www.travis-ci.org/Beautblessing/iReporter.svg?branch=develop)](https://www.travis-ci.org/Beautblessing/iReporter)
 [![Coverage Status](https://coveralls.io/repos/github/Beautblessing/iReporter/badge.svg?branch=develop)](https://coveralls.io/github/Beautblessing/iReporter?branch=develop)
-## Project Overview
 
 The iReporter app is an e-solution to curb all forms of corruption in Africa. It enables any/every citizen of to notify appropriate authorities and the general public on any incident linked to corruption and Call on appropriate government agencies for intervention. 
 

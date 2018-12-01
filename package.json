@@ -4,7 +4,8 @@
   "description": "A Red-Flag Incident and Intervention Reporting App",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha --exit  --require babel-polyfill --require babel-register",
+    "start": "npm run build && node ./build/server.js",
+    "test": "nyc mocha --exit  --require babel-polyfill --require babel-register --timeout 5000",
     "build": "babel ./server/server.js --out-dir build",
     "dev-start": "babel-watch ./server/server.js",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
